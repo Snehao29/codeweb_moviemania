@@ -1,0 +1,123 @@
+body
+{
+    margin:0%
+}
+
+.parentdiv
+{
+    background-color: white;
+    height: 100vh;
+    width: auto;
+}
+
+.navbar
+{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search
+{
+    height: 30px;
+    background-color: white;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+}
+
+
+.title
+{
+  color: white;   
+  font: bold;
+  font-size: large;
+}
+
+.burger
+{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50px;
+    right: 0;
+    visibility: hidden;
+
+
+}
+
+.burger div
+{
+
+    border-bottom:solid 1px gray ;
+    padding: 5px 5px;
+    color: aliceblue;
+}
+
+
+.photo1
+{
+ height: 40vh;
+ 
+}
+.cardimage
+{
+ height: 40vh;
+
+}
+
+.topbg
+{
+    background-image: url("rat.jpg");
+    object-fit: fill;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:60%
+
+}
+
+.container
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+ 
+.container img{
+    padding: 8px;
+    transition: transform 0.5s;
+}
+
+.container img:hover
+{
+    transform: scale(1.1); 
+}
+
+.searchicon
+{
+    height: 20px;
+    width:20px;
+    z-index: 20;
+   position: absolute;
+   margin-left: 5px;
+
+
+}
+
+input
+{
+    position: relative;
+    display: flex;
+    justify-content: start;
+}
+
